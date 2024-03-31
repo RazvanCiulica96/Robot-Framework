@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.8.0 on win32)" generated="2024-03-30T12:40:35.742654" rpa="false" schemaversion="5">
+<suite id="s1" name="testLoginDemo2" source="C:\development\robot-scripts\ErrorsRobot\tests\testLoginDemo2.robot">
+<test id="s1-t1" name="Validate Unsucessfull Login" line="15">
+<kw name="open the browser" type="SETUP">
+<msg time="2024-03-30T12:40:35.947129" level="FAIL">No keyword with name 'open the browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</msg>
+<status status="FAIL" start="2024-03-30T12:40:35.947129" elapsed="0.000998">No keyword with name 'open the browser' found. Did you mean:
+    SeleniumLibrary.Open Browser</status>
+</kw>
+<kw name="close browser session" type="TEARDOWN">
+<msg time="2024-03-30T12:40:35.950122" level="FAIL">No keyword with name 'close browser session' found. Did you try using keyword 'SeleniumLibrary.Close Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" start="2024-03-30T12:40:35.950122" elapsed="0.000000">No keyword with name 'close browser session' found. Did you try using keyword 'SeleniumLibrary.Close Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<status status="FAIL" start="2024-03-30T12:40:35.945104" elapsed="0.005018">Setup failed:
+No keyword with name 'open the browser' found. Did you mean:
+    SeleniumLibrary.Open Browser
+
+Also teardown failed:
+No keyword with name 'close browser session' found. Did you try using keyword 'SeleniumLibrary.Close Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<doc>This is some basic test for checking the error of a login page</doc>
+<status status="FAIL" start="2024-03-30T12:40:35.743651" elapsed="0.208465"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="testLoginDemo2">testLoginDemo2</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-03-30T12:40:35.944140" level="ERROR">Error in file 'C:\development\robot-scripts\ErrorsRobot\tests\testLoginDemo2.robot' on line 4: Resource file 'resource.robot' does not exist.</msg>
+</errors>
+</robot>
