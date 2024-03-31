@@ -22,3 +22,8 @@ open the browser
 close browser session
 
     Close Browser
+
+
+Wait Until element passed is located on Page
+    [arguments]             ${page_locator}
+    wait until element is visible        ${page_locator}
